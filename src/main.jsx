@@ -43,7 +43,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CartProvider>
       {" "}
-      {/* Wrap the RouterProvider with CartProvider */}
       <ToastContainer position="top-center" autoClose={3000} />
       <RouterProvider router={router} />
     </CartProvider>
