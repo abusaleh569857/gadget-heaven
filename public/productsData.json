@@ -1,0 +1,227 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "phone",
+    "price": 999.99,
+    "description": "Latest iPhone with A16 chip and exceptional camera capabilities.",
+    "Specification": [
+      "128GB Storage",
+      "6.1-inch Display",
+      "5G Enabled"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "iPhone 13",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "phone",
+    "price": 799.99,
+    "description": "Powerful smartphone with dual-camera system.",
+    "Specification": [
+      "256GB Storage",
+      "6.1-inch Display",
+      "5G Enabled"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 3,
+    "product_title": "Samsung Galaxy S22",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "phone",
+    "price": 899.99,
+    "description": "Flagship Samsung phone with stunning display and camera.",
+    "Specification": [
+      "128GB Storage",
+      "6.2-inch Display",
+      "5G Enabled"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "Google Pixel 6",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "phone",
+    "price": 699.99,
+    "description": "Smartphone with the best camera for photography enthusiasts.",
+    "Specification": [
+      "128GB Storage",
+      "6.4-inch Display",
+      "5G Enabled"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 5,
+    "product_title": "OnePlus 9",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "phone",
+    "price": 729.99,
+    "description": "High-performance phone with Hasselblad camera integration.",
+    "Specification": [
+      "128GB Storage",
+      "6.55-inch Display",
+      "5G Enabled"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 6,
+    "product_title": "MacBook Air M2",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "macbook",
+    "price": 1199.99,
+    "description": "Lightweight laptop with M2 chip for fast performance.",
+    "Specification": [
+      "256GB SSD",
+      "13.6-inch Retina Display",
+      "Up to 18 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 7,
+    "product_title": "MacBook Pro 14",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "macbook",
+    "price": 1999.99,
+    "description": "Powerful MacBook Pro with M1 Pro chip for professionals.",
+    "Specification": [
+      "512GB SSD",
+      "14-inch Liquid Retina XDR",
+      "Up to 17 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 8,
+    "product_title": "MacBook Pro 16",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "macbook",
+    "price": 2499.99,
+    "description": "High-end laptop with exceptional graphics performance.",
+    "Specification": [
+      "1TB SSD",
+      "16-inch Liquid Retina XDR",
+      "Up to 21 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 9,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "laptop",
+    "price": 1399.99,
+    "description": "Compact laptop with stunning InfinityEdge display.",
+    "Specification": [
+      "512GB SSD",
+      "13.4-inch Display",
+      "Up to 14 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 10,
+    "product_title": "HP Spectre x360",
+    "product_image":   "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "laptop",
+    "price": 1499.99,
+    "description": "Versatile convertible laptop with sleek design.",
+    "Specification": [
+      "1TB SSD",
+      "13.3-inch OLED Display",
+      "Up to 12 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 11,
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "laptop",
+    "price": 1799.99,
+    "description": "Business laptop with robust security features.",
+    "Specification": [
+      "1TB SSD",
+      "14-inch Display",
+      "Up to 15 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 12,
+    "product_title": "Asus ROG Zephyrus",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "laptop",
+    "price": 1699.99,
+    "description": "Gaming laptop with powerful graphics and fast refresh rate.",
+    "Specification": [
+      "1TB SSD",
+      "14-inch Display",
+      "Up to 10 hours battery life"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 13,
+    "product_title": "Logitech Master 3",
+    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "accessories",
+    "price": 99.99,
+    "description": "Ergonomic wireless mouse with customizable buttons.",
+    "Specification": [
+      "Bluetooth and USB receiver",
+      "Rechargeable battery",
+      "Multi-device support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 14,
+    "product_title": "Apple AirPods Pro",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "accessories",
+    "price": 249.99,
+    "description": "Wireless earbuds with active noise cancellation.",
+    "Specification": [
+      "Active noise cancellation",
+      "Transparency mode",
+      "Sweat and water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 15,
+    "product_title": "Anker Power Bank",
+    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "category": "accessories",
+    "price": 79.99,
+    "description": "Portable power bank with high capacity.",
+    "Specification": [
+      "20,000mAh capacity",
+      "Dual USB ports",
+      "Fast charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
