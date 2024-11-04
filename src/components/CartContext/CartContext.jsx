@@ -86,10 +86,9 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  // In CartContext.jsx
   const removeFromCart = (productId) => {
-    setCartItems((prev) =>
-      prev.filter((item) => item.product_id !== productId)
+    setCartItems((prevItems) =>
+      prevItems.filter((item) => item.product_id !== productId)
     );
     toast.success("Product removed from cart");
   };
@@ -101,6 +100,10 @@ export const CartProvider = ({ children }) => {
     toast.success("Product removed from wishlist");
   };
 
+  const clearCart = () => {
+    setCartItems([]); // Clear the cart items
+  };
+
   return (
     <CartContext.Provider
       value={{
@@ -110,6 +113,7 @@ export const CartProvider = ({ children }) => {
         addToWishlist,
         removeFromCart,
         removeFromWishlist,
+        clearCart,
       }}
     >
       {children}
