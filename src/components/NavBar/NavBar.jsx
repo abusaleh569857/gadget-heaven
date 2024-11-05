@@ -1,29 +1,60 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+// import React from "react";
+import { NavLink, useLocation } from "react-router-dom"; // Import useLocation hook
 import { useCart } from "../CartContext/CartContext"; // Import the useCart hook
 
 const NavBar = () => {
   const { cartItems, wishlistItems } = useCart(); // Get cart and wishlist items from the context
+  const location = useLocation();
 
+  // Links for navigation
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "bg-[#9538E2] text-white" : "text-black"
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <NavLink
+          to="/statistics"
+          className={({ isActive }) =>
+            isActive ? "bg-[#9538E2] text-white" : "text-black"
+          }
+        >
+          Statistics
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/dashboard">Dashboard</NavLink>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) =>
+            isActive ? "bg-[#9538E2] text-white" : "text-black"
+          }
+        >
+          Dashboard
+        </NavLink>
       </li>
     </>
   );
 
+  // Apply background color conditionally
+  const navbarBgColor = location.pathname === "/" ? "bg-[#9538E2]" : "bg-white";
+
   return (
-    <div className="navbar bg-[#9538E2]">
+    <div className={`navbar ${navbarBgColor}`}>
+      {/* Apply dynamic background color */}
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost md:hidden lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -48,7 +79,7 @@ const NavBar = () => {
         </div>
         <a className="btn btn-ghost text-xl">Gadget Heaven</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden md:flex lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">

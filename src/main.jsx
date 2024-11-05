@@ -4,8 +4,11 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/Root/Root";
+// import App from "./App";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Dashboard from "./components/Dashboard/Dashboard";
+import CartPage from "./components/CartPage/CartPage";
+import WishlistPage from "./components/WishlistPage/WishlistPage";
 import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
@@ -35,12 +38,21 @@ const router = createBrowserRouter([
         path: "/product/:product_id",
         element: <ProductDetails></ProductDetails>,
       },
+      {
+        path: "/cart",
+        element: <CartPage></CartPage>,
+      },
+      {
+        path: "/wishlist",
+        element: <WishlistPage></WishlistPage>,
+      },
     ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* <App></App> */}
     <CartProvider>
       {" "}
       <ToastContainer position="top-center" autoClose={3000} />

@@ -2,7 +2,7 @@
   {
     "product_id": 1,
     "product_title": "iPhone 14 Pro",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/7RVMksQ/iphone-14-pro.jpg",
     "category": "phone",
     "price": 999.99,
     "description": "Latest iPhone with A16 chip and exceptional camera capabilities.",
@@ -17,7 +17,7 @@
   {
     "product_id": 2,
     "product_title": "iPhone 13",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/XDBgPgf/Gear-Review-Apple-iphone13-hero-us-09142021.webp",
     "category": "phone",
     "price": 799.99,
     "description": "Powerful smartphone with dual-camera system.",
@@ -32,7 +32,7 @@
   {
     "product_id": 3,
     "product_title": "Samsung Galaxy S22",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/HdSC02N/Gear-Samsung-Galaxy-S22-Ultra.webp",
     "category": "phone",
     "price": 899.99,
     "description": "Flagship Samsung phone with stunning display and camera.",
@@ -47,7 +47,7 @@
   {
     "product_id": 4,
     "product_title": "Google Pixel 6",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/zVzL3mX/pixel-6-pro-8.webp",
     "category": "phone",
     "price": 699.99,
     "description": "Smartphone with the best camera for photography enthusiasts.",
@@ -62,7 +62,7 @@
   {
     "product_id": 5,
     "product_title": "OnePlus 9",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/9yn0tGR/Astralblack-2080a-min-euna.png",
     "category": "phone",
     "price": 729.99,
     "description": "High-performance phone with Hasselblad camera integration.",
@@ -77,7 +77,7 @@
   {
     "product_id": 6,
     "product_title": "MacBook Air M2",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/FhnwqnG/bf86f106.jpg",
     "category": "macbook",
     "price": 1199.99,
     "description": "Lightweight laptop with M2 chip for fast performance.",
@@ -92,7 +92,7 @@
   {
     "product_id": 7,
     "product_title": "MacBook Pro 14",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/SJg8SGK/csm-AKA8518-984be0479c.jpg",
     "category": "macbook",
     "price": 1999.99,
     "description": "Powerful MacBook Pro with M1 Pro chip for professionals.",
@@ -107,7 +107,7 @@
   {
     "product_id": 8,
     "product_title": "MacBook Pro 16",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/xmvmrnt/05r7gr-G5j-UF6-QJXZlq-Knmi-H-1.webp",
     "category": "macbook",
     "price": 2499.99,
     "description": "High-end laptop with exceptional graphics performance.",
@@ -122,7 +122,7 @@
   {
     "product_id": 9,
     "product_title": "Dell XPS 13",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/RDzLT1q/hero-image.webp",
     "category": "laptop",
     "price": 1399.99,
     "description": "Compact laptop with stunning InfinityEdge display.",
@@ -137,7 +137,7 @@
   {
     "product_id": 10,
     "product_title": "HP Spectre x360",
-    "product_image":   "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":   "https://i.ibb.co.com/163Tg9t/design-medium.jpg",
     "category": "laptop",
     "price": 1499.99,
     "description": "Versatile convertible laptop with sleek design.",
@@ -152,7 +152,7 @@
   {
     "product_id": 11,
     "product_title": "Lenovo ThinkPad X1 Carbon",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/vwL5gwd/137106982-734195630857101-4325231874758785008-n.jpg",
     "category": "laptop",
     "price": 1799.99,
     "description": "Business laptop with robust security features.",
@@ -167,7 +167,7 @@
   {
     "product_id": 12,
     "product_title": "Asus ROG Zephyrus",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/7JxZTdY/Asus-ROG-Zephyrus-G16-2024-Model-Price-in-BD-2.webp",
     "category": "laptop",
     "price": 1699.99,
     "description": "Gaming laptop with powerful graphics and fast refresh rate.",
@@ -182,7 +182,7 @@
   {
     "product_id": 13,
     "product_title": "Logitech Master 3",
-    "product_image": "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image": "https://i.ibb.co.com/j42kSxv/Km-VUTGRLk-Dyw-KE7p2oi-SH8-1510-80-jpg.webp",
     "category": "accessories",
     "price": 99.99,
     "description": "Ergonomic wireless mouse with customizable buttons.",
@@ -197,7 +197,7 @@
   {
     "product_id": 14,
     "product_title": "Apple AirPods Pro",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/FskbhG7/Apple-Air-Pods-Pro-2nd-generation-2023-01-01-63b17f84800ae.jpg",
     "category": "accessories",
     "price": 249.99,
     "description": "Wireless earbuds with active noise cancellation.",
@@ -212,7 +212,7 @@
   {
     "product_id": 15,
     "product_title": "Anker Power Bank",
-    "product_image":  "https://i.ibb.co.com/PNNbSby/iphone14pro.jpg",
+    "product_image":  "https://i.ibb.co.com/2F1TMCy/334-maggo-black-01-228x228.webp",
     "category": "accessories",
     "price": 79.99,
     "description": "Portable power bank with high capacity.",

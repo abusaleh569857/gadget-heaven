@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { useCart } from "../CartContext/CartContext"; // Make sure to use your context hook
-import { ToastContainer, toast } from "react-toastify"; // Import ToastContainer and toast
+import { ToastContainer } from "react-toastify"; // Import ToastContainer and toast
 import "react-toastify/dist/ReactToastify.css"; // Import Toastify CSS
 
 function ProductDetails() {
@@ -44,8 +44,8 @@ function ProductDetails() {
         </p>
       </div>
       <div className="w-full max-w-3xl bg-white p-8 rounded-b-lg shadow-lg mt-[-8px]">
-        <div className="flex flex-col lg:flex-row gap-6">
-          <div className="w-full lg:w-1/3 bg-gray-200 rounded-lg h-64 flex items-center justify-center">
+        <div className="flex flex-col md:flex-row lg:flex-row gap-6">
+          <div className="w-3/4 md:w-1/2 lg:w-1/3 bg-gray-200 rounded-lg h-64 flex items-center justify-center">
             <img
               src={product.product_image}
               alt={product.product_title}
