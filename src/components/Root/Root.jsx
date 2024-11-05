@@ -35,6 +35,8 @@ const Root = () => {
       pageTitle = "Cart | Gadget Heaven";
     } else if (location.pathname === "/wishlist") {
       pageTitle = "Wishlist | Gadget Heaven";
+    } else if (location.pathname === "/feedback") {
+      pageTitle = "FeedBack | Gadget Heaven";
     } else {
       // For other paths, set a generic title
       pageTitle = `${location.pathname.replace("/", "")} | Gadget Heaven`;
