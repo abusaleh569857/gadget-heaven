@@ -15,7 +15,7 @@ const Gadgets = () => {
       <h2 className="text-4xl text-center font-bold my-3">
         Explore Cutting-Edge Gadgets
       </h2>
-      <div className="flex gap-5 w-[90%] mx-auto border-2 border-red-600">
+      <div className="flex gap-5 w-[90%] mx-auto ">
         <div className="w-1/4">
           <div className="flex flex-col gap-3">
             <button className="bg-[#9538E2] text-center text-white py-2 px-4 rounded-full font-semibold">
@@ -41,7 +41,7 @@ const Gadgets = () => {
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 border">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {gadgets.map((gadget) => (
             <Gadget key={gadget.product_id} gadget={gadget}></Gadget>
           ))}
