@@ -4,11 +4,12 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/Root/Root";
-// import App from "./App";
+
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Dashboard from "./components/Dashboard/Dashboard";
 import CartPage from "./components/CartPage/CartPage";
 import WishlistPage from "./components/WishlistPage/WishlistPage";
+import FeedBack from "./components/FeedBack/FeedBack";
 import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/wishlist",
         element: <WishlistPage></WishlistPage>,
+      },
+      {
+        path: "/feedback",
+        element: <FeedBack></FeedBack>,
       },
     ],
   },

@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import { NavLink, useLocation } from "react-router-dom"; // Import useLocation hook
 import { useCart } from "../CartContext/CartContext"; // Import the useCart hook
 
@@ -37,6 +37,16 @@ const NavBar = () => {
           }
         >
           Dashboard
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/feedback"
+          className={({ isActive }) =>
+            isActive ? "bg-[#9538E2] text-white" : "text-black"
+          }
+        >
+          Feedback
         </NavLink>
       </li>
     </>
