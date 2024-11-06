@@ -1,4 +1,6 @@
 import BannerImage from "../../assets/banner.jpg";
+import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
     <div className="relative pb-5 lg:pb-[420px]">
@@ -11,9 +13,18 @@ const Banner = () => {
           level. From smart devices to the coolest accessories, we have it all!
         </p>
         <div className="flex justify-center">
-          <button className=" bg-white text-[#9538E2] rounded-3xl px-6 py-2">
+          {/* <Link
+            to="/dashboard"
+            className=" bg-white text-[#9538E2] rounded-3xl px-6 py-2"
+          >
             Shop Now
-          </button>
+          </Link> */}
+          <Link
+            to="/dashboard"
+            className="bg-white text-[#9538E2] rounded-3xl px-6 py-2 hover:bg-[#9538E2] hover:text-white transition-all duration-300"
+          >
+            Shop Now
+          </Link>
         </div>
       </div>
       <div className="hidden lg:block absolute left-[120px] top-[300px] w-[80%] h-[500px] border-2 border-gray-200 rounded-2xl">

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useCart } from "../CartContext/CartContext";
 import { ToastContainer } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
   const {
@@ -14,11 +15,10 @@ const Dashboard = () => {
   const [isCartView, setIsCartView] = useState(true);
   const [sortedCartItems, setSortedCartItems] = useState(cartItems);
   const [showModal, setShowModal] = useState(false);
-  const [setPurchaseConfirmed] = useState(false); // Track purchase confirmation
-
-  const totalCost = cartItems
-    .reduce((acc, item) => acc + item.price, 0)
-    .toFixed(2);
+  const [totalCost, setTotalCost] = useState(
+    cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)
+  );
+  const navigate = useNavigate();
 
   // Sort cart items by descending price
   const sortByDescendingPrice = () => {
@@ -31,11 +31,12 @@ const Dashboard = () => {
     setShowModal(true); // Show success modal
   };
 
-  // Confirm payment and clear cart
+  // Confirm payment, clear cart, and set totalCost to 0
   const clearCartItem = () => {
     clearCart(); // Clear cart items
+    setTotalCost(0); // Reset total cost
     setShowModal(false); // Close modal
-    setPurchaseConfirmed(true); // Optionally set a state for feedback
+    navigate("/"); // Redirect to home
   };
 
   // Function to handle item removal
@@ -43,9 +44,12 @@ const Dashboard = () => {
     removeFromCart(productId);
   };
 
-  // Update sorted cart items whenever cartItems changes
+  // Update sorted cart items and totalCost whenever cartItems changes
   useEffect(() => {
     setSortedCartItems(cartItems);
+    setTotalCost(
+      cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)
+    );
   }, [cartItems]);
 
   return (
@@ -97,6 +101,7 @@ const Dashboard = () => {
                 <button
                   onClick={handlePurchase}
                   className="px-4 py-2 bg-purple-500 text-white rounded-full hover:bg-purple-600 transition-all duration-300"
+                  disabled={cartItems.length === 0 || totalCost === 0} // Disable if cart is empty
                 >
                   Purchase
                 </button>

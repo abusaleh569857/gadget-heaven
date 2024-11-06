@@ -1,7 +1,7 @@
 const ErrorPage = () => {
   return (
     <div>
-      <h3 className="text-5xl">Error Loading Page</h3>
+      <h3 className="text-5xl text-center mt-32">Error Loading Page/404</h3>
     </div>
   );
 };
