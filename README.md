@@ -1,36 +1,38 @@
-<!-- # React + Vite
+# 🛒 Gadget Heaven | E-commerce Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and responsive e-commerce dashboard built with **React**, focused on seamless gadget discovery and a streamlined checkout experience.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** [Gadget Heaven](https://gadget-heaven-b10-assignment-8.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
+---
 
-Gadget Heaven
-Live Website: publish later
-Requirement Document: "Batch-10_Assignment-08.pdf"
+## 🚀 Overview
+**Gadget Heaven** is a modern web application where users can explore the latest tech gadgets, manage their personal cart and wishlist, and complete purchases. By utilizing the **Context API**, the app ensures a smooth, prop-drilling-free state management experience across all components.
 
-Overview
-This project is a dynamic e-commerce dashboard where users can manage their cart and wishlist, sort items, and make purchases with a streamlined checkout process. The app is built with React and uses the Context API for state management, offering a smooth and responsive user experience.
+## ✨ Key Features
+- 🛍️ **Cart & Wishlist Management:** Easily add or remove gadgets. View them in dedicated, organized tabs.
+- 📉 **Smart Sorting:** Sort cart items by price in descending order to find the most premium gadgets instantly.
+- 💰 **Real-time Calculations:** Automatically calculates the total cost as you modify your cart.
+- 🎯 **Conditional Purchasing:** The purchase button intelligently disables when the cart is empty, preventing accidental checkouts.
+- 🎊 **Seamless Checkout:** A polished modal-based checkout flow that confirms purchases and clears your cart upon completion.
 
-Features
-Cart and Wishlist Management: Add items to the cart and wishlist, view them in separate tabs, and remove items as needed.
-Purchase and Checkout Modal: Confirm purchases through a checkout modal that shows a success message and clears the cart on confirmation.
-Sorting Functionality: Sort cart items by price in descending order to easily view the most expensive items.
-Total Cost Calculation: Real-time calculation of the total cost of items in the cart.
-Conditional Button Disabling: The "Purchase" button is disabled when the cart is empty or when total cost is zero, ensuring no accidental
-purchases.
+## 🛠️ Tech Stack & Concepts
+- **Core:** React.js
+- **State Management:** Context API (Cart & Wishlist state)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM (`useNavigate`, `useLocation`)
+- **Persistence:** Managing side effects with `useEffect` for data synchronization.
 
-React Fundamentals Used
-This project utilizes several key concepts in React, including:
+## 📦 React Fundamentals Applied
+- **Components:** Modular and reusable functional component architecture.
+- **Hooks:** - `useState`: For UI toggles, modal visibility, and sorting states.
+  - `useEffect`: To track cart changes and update total costs dynamically.
+- **Context API:** Efficient global state management for a seamless user journey.
+- **Conditional Rendering:** Dynamic view switching between Cart and Wishlist tabs.
 
-Components: Organized the UI into reusable functional components.
-State Management with useState: Used for managing view toggles, sorting, and modal visibility.
-Side Effects with useEffect: Managed side effects for dynamically updating sorted items and total cost whenever cart items change.
-Conditional Rendering: Rendered the cart and wishlist views conditionally based on the active tab.
-Routing with useNavigate: Used useNavigate for redirecting to the home page after a successful purchase.
-Data Management
-For data handling and state management, this project uses Context API. The Context API allows efficient management of shared state (such as
-cartItems and wishlistItems) across components without prop drilling. All cart and wishlist actions, such as adding, removing, and clearing
-items, are handled through the CartContext.
+---
+
+### 💻 Local Installation
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/your-username/gadget-heaven.git](https://github.com/your-username/gadget-heaven.git)
